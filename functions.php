@@ -14,5 +14,3 @@ function joySuperman_scriptLoading(){
     wp_enqueue_style('joySuperman-bootstrap', get_template_directory_uri().'/plugins/bootstrap/bootstrap.min.css','','1.0.0');
     wp_enqueue_style('joySuperman-custom', get_template_directory_uri().'/css/style.css','','1.0.0');
 }
-
-//=====================================
