@@ -18,14 +18,6 @@
     <div class="copyright bg-dark content">Designed &amp; Developed By <a href="https://themefisher.com/">Themefisher</a></div>
 </footer>
 
-
-<!-- # JS Plugins -->
-<script src="<?php echo get_template_directory_uri();?>/plugins/jquery/jquery.min.js"></script>
-<script src="<?php echo get_template_directory_uri();?>/plugins/bootstrap/bootstrap.min.js"></script>
-
-<!-- Main Script -->
-<script src="<?php echo get_template_directory_uri();?>/js/script.js"></script>
-
 <?php wp_footer(); ?>
 </body>
 </html>
