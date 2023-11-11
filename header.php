@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
-<html <?php language_attributes();?>>>
+<html <?php language_attributes();?>
 
 <head>
-    <meta charset="<?php bloginfo('charset');?>>">
-    <title><?php bloginfo('name');?>></title>
+    <meta charset="<?php bloginfo('charset');?>">
+    <title><?php wp_title();?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
     <meta name="description" content="This is meta description">
     <meta name="author" content="joySuperman">
@@ -21,4 +21,4 @@
     <?php wp_head();?>
 </head>
 
-<body <?php body_class(); ?> >
+<body <?php body_class(); ?>
