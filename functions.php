@@ -135,11 +135,10 @@ function theme_register_sidebar() {
         'name'          => __('Primary Sidebar', 'theme-text-domain'),
         'id'            => 'primary-sidebar',
         'description'   => __('This is the primary sidebar.', 'theme-text-domain'),
-        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'before_widget' => '<div id="%1$s" class="widget-list %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h2 class="widget-title">',
+        'before_title'  => '<h2 class="section-title mb-3">',
         'after_title'   => '</h2>',
     ));
 }
-
 add_action('widgets_init', 'theme_register_sidebar');
